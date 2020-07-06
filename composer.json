@@ -1,0 +1,22 @@
+{
+    "name": "florian/hippocampe",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Florian",
+            "email": "legars.florian@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.7",
+        "doctrine/common": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "nelmio/alice": "^3.6"
+    }
+}
