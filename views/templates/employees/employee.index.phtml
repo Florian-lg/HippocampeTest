@@ -1,0 +1,40 @@
+<?php include 'views/templates/_partials/header.html'; ?>
+
+<body>
+    <?php include 'views/templates/_partials/sidebar.phtml'; ?>
+    <h1 id="title" class="text-primary">Employees</h1>
+    <div class="container">
+        <div id="companies" class="mt-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Company</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($employees as $employee): ?>
+                        <tr>
+                            <td><?php echo $employee->getId(); ?></td>
+                            <td><?php echo $employee->getName(); ?></td>
+                            <td><?php echo $employee->getAge(); ?></td>
+                            <td><?php echo $employee->getCompany(); ?></td>
+                            <td><a href="/admin/employee/<?php echo $employee->getId(); ?>" class="btn btn-primary mr-1">Preview</a><a href="#" class="btn btn-success mr-1">Update</a><a href="#" class="btn btn-danger mr-1">Delete</a></td>
+                        </tr>
+                    <?php endforeach ?>
+                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript">      
+            const age = <?php echo $employeesAge ?>
+        </script>
+        <div id="container" style="width: 500px; height: 400px;"></div>
+    </div>
+
+    <?php include 'views/templates/_partials/scripts.html'; ?>
+</body>
+
+<?php include 'views/templates/_partials/footer.html'; ?>

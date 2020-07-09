@@ -2,19 +2,21 @@
 
 use App\Controller\AdminController;
 use App\Controller\HomeController;
+use App\Entity\Employee;
+use App\Router;
+use App\Router\Router as Routing;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-if(isset($_GET['r'])) {
-    $route = $_GET['r'];
+$router = new Routing($_GET['url']);
 
-    switch ($route) {
-        case 'admin':
-            (new AdminController())->indexAction();
-            break;
-        case 'home':
-            (new HomeController())->indexAction();
-            break;
-    }
-    
-}
+$router->get('/admin', 'Admin::indexAction');
+
+// Employee routes
+$router->get('/admin/employee', 'Employee::indexAction');
+$router->get('/admin/employee/:id', 'Employee::showAction');
+
+$router->get('/admin/companies', 'Company::indexAction');
+$router->get('/admin/companies/company/:id', 'Company::showAction');
+
+$router->run();

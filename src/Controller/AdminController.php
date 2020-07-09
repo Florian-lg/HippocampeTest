@@ -4,9 +4,11 @@ namespace App\Controller;
 
 class AdminController extends BaseController
 {
-
+    /**
+     * @return void
+     */
     public function indexAction()
     {
-        include $this->templateFolder . 'admin.html';
+        include __DIR__ . '/../../views/templates/admin.phtml';
     }
 }

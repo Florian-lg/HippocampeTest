@@ -1,0 +1,1156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save-dev',
+1 verbose cli   'sass-loader',
+1 verbose cli   'node-sass',
+1 verbose cli   'css-loader',
+1 verbose cli   'style-loader',
+1 verbose cli   'autoprefixer',
+1 verbose cli   'postcss-loader' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData sass-loader@^9.0.2
+8 silly fetchPackageMetaData node-sass@^4.14.1
+9 silly fetchPackageMetaData css-loader@^3.6.0
+10 silly fetchPackageMetaData style-loader@^1.2.1
+11 silly fetchPackageMetaData autoprefixer
+12 silly fetchPackageMetaData postcss-loader@^3.0.0
+13 silly fetchNamedPackageData sass-loader
+14 silly mapToRegistry name sass-loader
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+18 silly fetchNamedPackageData node-sass
+19 silly mapToRegistry name node-sass
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+23 silly fetchNamedPackageData css-loader
+24 silly mapToRegistry name css-loader
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+28 silly fetchNamedPackageData style-loader
+29 silly mapToRegistry name style-loader
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+33 silly fetchNamedPackageData postcss-loader
+34 silly mapToRegistry name postcss-loader
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/postcss-loader
+38 silly fetchNamedPackageData autoprefixer
+39 silly mapToRegistry name autoprefixer
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+43 verbose request uri https://registry.npmjs.org/sass-loader
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 21:48:59
+46 verbose request id 9520cb028e4d2e83
+47 http request GET https://registry.npmjs.org/sass-loader
+48 verbose request uri https://registry.npmjs.org/node-sass
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 21:48:59
+51 http request GET https://registry.npmjs.org/node-sass
+52 verbose request uri https://registry.npmjs.org/css-loader
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 21:48:59
+55 http request GET https://registry.npmjs.org/css-loader
+56 verbose request uri https://registry.npmjs.org/style-loader
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 21:48:59
+59 http request GET https://registry.npmjs.org/style-loader
+60 verbose request uri https://registry.npmjs.org/postcss-loader
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 21:48:59
+63 http request GET https://registry.npmjs.org/postcss-loader
+64 verbose request uri https://registry.npmjs.org/autoprefixer
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 21:48:59
+67 http request GET https://registry.npmjs.org/autoprefixer
+68 http 200 https://registry.npmjs.org/sass-loader
+69 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'transfer-encoding': 'chunked',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'set-cookie':
+69 verbose headers    [ '__cfduid=d100f54600a2e59247c8cc42bdc4936e31594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+69 verbose headers   'cf-ray': '5afc536e8b9bcd77-CDG',
+69 verbose headers   age: '3756',
+69 verbose headers   'cache-control': 'public, max-age=300',
+69 verbose headers   etag: 'W/"101b9cbc74bed4ec6aeac31ee4b80afd"',
+69 verbose headers   'last-modified': 'Tue, 07 Jul 2020 15:30:20 GMT',
+69 verbose headers   vary: 'accept-encoding, accept',
+69 verbose headers   'cf-cache-status': 'HIT',
+69 verbose headers   'cf-request-id': '03d19279180000cd77882a1200000001',
+69 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+69 verbose headers   server: 'cloudflare',
+69 verbose headers   'content-encoding': 'gzip' }
+70 silly get cb [ 200,
+70 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+70 silly get     'content-type': 'application/json',
+70 silly get     'transfer-encoding': 'chunked',
+70 silly get     connection: 'keep-alive',
+70 silly get     'set-cookie':
+70 silly get      [ '__cfduid=d100f54600a2e59247c8cc42bdc4936e31594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+70 silly get     'cf-ray': '5afc536e8b9bcd77-CDG',
+70 silly get     age: '3756',
+70 silly get     'cache-control': 'public, max-age=300',
+70 silly get     etag: 'W/"101b9cbc74bed4ec6aeac31ee4b80afd"',
+70 silly get     'last-modified': 'Tue, 07 Jul 2020 15:30:20 GMT',
+70 silly get     vary: 'accept-encoding, accept',
+70 silly get     'cf-cache-status': 'HIT',
+70 silly get     'cf-request-id': '03d19279180000cd77882a1200000001',
+70 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+70 silly get     server: 'cloudflare',
+70 silly get     'content-encoding': 'gzip' } ]
+71 verbose get saving sass-loader to /home/florian/.npm/registry.npmjs.org/sass-loader/.cache.json
+72 verbose makeDirectory /home/florian/.npm creation not in flight; initializing
+73 silly makeDirectory /home/florian/.npm uid: 1000 gid: 1000
+74 http 200 https://registry.npmjs.org/style-loader
+75 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+75 verbose headers   'content-type': 'application/json',
+75 verbose headers   'transfer-encoding': 'chunked',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'set-cookie':
+75 verbose headers    [ '__cfduid=da1d7768e2dc63cca3d8e228f86b702cc1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+75 verbose headers   'cf-ray': '5afc536e9c0d0476-CDG',
+75 verbose headers   age: '3786',
+75 verbose headers   'cache-control': 'public, max-age=300',
+75 verbose headers   etag: 'W/"fe87dbd9dd1cfda378dcb745826c0b34"',
+75 verbose headers   'last-modified': 'Tue, 28 Apr 2020 13:33:20 GMT',
+75 verbose headers   vary: 'accept-encoding, accept',
+75 verbose headers   'cf-cache-status': 'HIT',
+75 verbose headers   'cf-request-id': '03d192791e00000476191f9200000001',
+75 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+75 verbose headers   server: 'cloudflare',
+75 verbose headers   'content-encoding': 'gzip' }
+76 silly get cb [ 200,
+76 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+76 silly get     'content-type': 'application/json',
+76 silly get     'transfer-encoding': 'chunked',
+76 silly get     connection: 'keep-alive',
+76 silly get     'set-cookie':
+76 silly get      [ '__cfduid=da1d7768e2dc63cca3d8e228f86b702cc1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+76 silly get     'cf-ray': '5afc536e9c0d0476-CDG',
+76 silly get     age: '3786',
+76 silly get     'cache-control': 'public, max-age=300',
+76 silly get     etag: 'W/"fe87dbd9dd1cfda378dcb745826c0b34"',
+76 silly get     'last-modified': 'Tue, 28 Apr 2020 13:33:20 GMT',
+76 silly get     vary: 'accept-encoding, accept',
+76 silly get     'cf-cache-status': 'HIT',
+76 silly get     'cf-request-id': '03d192791e00000476191f9200000001',
+76 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 silly get     server: 'cloudflare',
+76 silly get     'content-encoding': 'gzip' } ]
+77 verbose get saving style-loader to /home/florian/.npm/registry.npmjs.org/style-loader/.cache.json
+78 http 200 https://registry.npmjs.org/postcss-loader
+79 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+79 verbose headers   'content-type': 'application/json',
+79 verbose headers   'transfer-encoding': 'chunked',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'set-cookie':
+79 verbose headers    [ '__cfduid=d566d22ef0e1772edbff0ce97eb9f05761594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+79 verbose headers   'cf-ray': '5afc536e9beb0814-CDG',
+79 verbose headers   age: '3756',
+79 verbose headers   'cache-control': 'public, max-age=300',
+79 verbose headers   etag: 'W/"605c3d4504637736849967b41a2e3e0f"',
+79 verbose headers   'last-modified': 'Tue, 25 Feb 2020 15:44:15 GMT',
+79 verbose headers   vary: 'accept-encoding, accept',
+79 verbose headers   'cf-cache-status': 'HIT',
+79 verbose headers   'cf-request-id': '03d192791e00000814e49a2200000001',
+79 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+79 verbose headers   server: 'cloudflare',
+79 verbose headers   'content-encoding': 'gzip' }
+80 silly get cb [ 200,
+80 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+80 silly get     'content-type': 'application/json',
+80 silly get     'transfer-encoding': 'chunked',
+80 silly get     connection: 'keep-alive',
+80 silly get     'set-cookie':
+80 silly get      [ '__cfduid=d566d22ef0e1772edbff0ce97eb9f05761594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+80 silly get     'cf-ray': '5afc536e9beb0814-CDG',
+80 silly get     age: '3756',
+80 silly get     'cache-control': 'public, max-age=300',
+80 silly get     etag: 'W/"605c3d4504637736849967b41a2e3e0f"',
+80 silly get     'last-modified': 'Tue, 25 Feb 2020 15:44:15 GMT',
+80 silly get     vary: 'accept-encoding, accept',
+80 silly get     'cf-cache-status': 'HIT',
+80 silly get     'cf-request-id': '03d192791e00000814e49a2200000001',
+80 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+80 silly get     server: 'cloudflare',
+80 silly get     'content-encoding': 'gzip' } ]
+81 verbose get saving postcss-loader to /home/florian/.npm/registry.npmjs.org/postcss-loader/.cache.json
+82 http 200 https://registry.npmjs.org/css-loader
+83 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'transfer-encoding': 'chunked',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'set-cookie':
+83 verbose headers    [ '__cfduid=d2b48f4fcbdf93200264e3dc0947a4b6d1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+83 verbose headers   'cf-ray': '5afc536e98d6cddf-CDG',
+83 verbose headers   age: '4692',
+83 verbose headers   'cache-control': 'public, max-age=300',
+83 verbose headers   etag: 'W/"9a913ffd5475de0ada79729405d15f56"',
+83 verbose headers   'last-modified': 'Sat, 13 Jun 2020 14:27:11 GMT',
+83 verbose headers   vary: 'accept-encoding, accept',
+83 verbose headers   'cf-cache-status': 'HIT',
+83 verbose headers   'cf-request-id': '03d192791e0000cddfdca49200000001',
+83 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+83 verbose headers   server: 'cloudflare',
+83 verbose headers   'content-encoding': 'gzip' }
+84 silly get cb [ 200,
+84 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+84 silly get     'content-type': 'application/json',
+84 silly get     'transfer-encoding': 'chunked',
+84 silly get     connection: 'keep-alive',
+84 silly get     'set-cookie':
+84 silly get      [ '__cfduid=d2b48f4fcbdf93200264e3dc0947a4b6d1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+84 silly get     'cf-ray': '5afc536e98d6cddf-CDG',
+84 silly get     age: '4692',
+84 silly get     'cache-control': 'public, max-age=300',
+84 silly get     etag: 'W/"9a913ffd5475de0ada79729405d15f56"',
+84 silly get     'last-modified': 'Sat, 13 Jun 2020 14:27:11 GMT',
+84 silly get     vary: 'accept-encoding, accept',
+84 silly get     'cf-cache-status': 'HIT',
+84 silly get     'cf-request-id': '03d192791e0000cddfdca49200000001',
+84 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+84 silly get     server: 'cloudflare',
+84 silly get     'content-encoding': 'gzip' } ]
+85 verbose get saving css-loader to /home/florian/.npm/registry.npmjs.org/css-loader/.cache.json
+86 http 200 https://registry.npmjs.org/node-sass
+87 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+87 verbose headers   'content-type': 'application/json',
+87 verbose headers   'transfer-encoding': 'chunked',
+87 verbose headers   connection: 'keep-alive',
+87 verbose headers   'set-cookie':
+87 verbose headers    [ '__cfduid=de653e6740681d734efde533e4b3362ff1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+87 verbose headers   'cf-ray': '5afc536e9871ee89-CDG',
+87 verbose headers   age: '4304',
+87 verbose headers   'cache-control': 'public, max-age=300',
+87 verbose headers   etag: 'W/"90d5a9d4b554a1664f8aa016d92bcd01"',
+87 verbose headers   'last-modified': 'Mon, 04 May 2020 23:42:34 GMT',
+87 verbose headers   vary: 'accept-encoding, accept',
+87 verbose headers   'cf-cache-status': 'HIT',
+87 verbose headers   'cf-request-id': '03d192791e0000ee89e19d9200000001',
+87 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+87 verbose headers   server: 'cloudflare',
+87 verbose headers   'content-encoding': 'gzip' }
+88 silly get cb [ 200,
+88 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+88 silly get     'content-type': 'application/json',
+88 silly get     'transfer-encoding': 'chunked',
+88 silly get     connection: 'keep-alive',
+88 silly get     'set-cookie':
+88 silly get      [ '__cfduid=de653e6740681d734efde533e4b3362ff1594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+88 silly get     'cf-ray': '5afc536e9871ee89-CDG',
+88 silly get     age: '4304',
+88 silly get     'cache-control': 'public, max-age=300',
+88 silly get     etag: 'W/"90d5a9d4b554a1664f8aa016d92bcd01"',
+88 silly get     'last-modified': 'Mon, 04 May 2020 23:42:34 GMT',
+88 silly get     vary: 'accept-encoding, accept',
+88 silly get     'cf-cache-status': 'HIT',
+88 silly get     'cf-request-id': '03d192791e0000ee89e19d9200000001',
+88 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+88 silly get     server: 'cloudflare',
+88 silly get     'content-encoding': 'gzip' } ]
+89 verbose get saving node-sass to /home/florian/.npm/registry.npmjs.org/node-sass/.cache.json
+90 http 200 https://registry.npmjs.org/autoprefixer
+91 verbose headers { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+91 verbose headers   'content-type': 'application/json',
+91 verbose headers   'transfer-encoding': 'chunked',
+91 verbose headers   connection: 'keep-alive',
+91 verbose headers   'set-cookie':
+91 verbose headers    [ '__cfduid=d57f733078bbe2bb48d54125cb0c331331594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+91 verbose headers   'cf-ray': '5afc536e9ffebd77-CDG',
+91 verbose headers   age: '3817',
+91 verbose headers   'cache-control': 'public, max-age=300',
+91 verbose headers   etag: 'W/"7cbca5d1687b0d3dc0b89d87ab8104d5"',
+91 verbose headers   'last-modified': 'Wed, 24 Jun 2020 03:31:13 GMT',
+91 verbose headers   vary: 'accept-encoding, accept',
+91 verbose headers   'cf-cache-status': 'HIT',
+91 verbose headers   'cf-request-id': '03d19279200000bd77592ff200000001',
+91 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+91 verbose headers   server: 'cloudflare',
+91 verbose headers   'content-encoding': 'gzip' }
+92 silly get cb [ 200,
+92 silly get   { date: 'Wed, 08 Jul 2020 19:48:59 GMT',
+92 silly get     'content-type': 'application/json',
+92 silly get     'transfer-encoding': 'chunked',
+92 silly get     connection: 'keep-alive',
+92 silly get     'set-cookie':
+92 silly get      [ '__cfduid=d57f733078bbe2bb48d54125cb0c331331594237739; expires=Fri, 07-Aug-20 19:48:59 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+92 silly get     'cf-ray': '5afc536e9ffebd77-CDG',
+92 silly get     age: '3817',
+92 silly get     'cache-control': 'public, max-age=300',
+92 silly get     etag: 'W/"7cbca5d1687b0d3dc0b89d87ab8104d5"',
+92 silly get     'last-modified': 'Wed, 24 Jun 2020 03:31:13 GMT',
+92 silly get     vary: 'accept-encoding, accept',
+92 silly get     'cf-cache-status': 'HIT',
+92 silly get     'cf-request-id': '03d19279200000bd77592ff200000001',
+92 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+92 silly get     server: 'cloudflare',
+92 silly get     'content-encoding': 'gzip' } ]
+93 verbose get saving autoprefixer to /home/florian/.npm/registry.npmjs.org/autoprefixer/.cache.json
+94 silly install normalizeTree
+95 silly loadCurrentTree Finishing
+96 silly loadIdealTree Starting
+97 silly install loadIdealTree
+98 silly cloneCurrentTree Starting
+99 silly install cloneCurrentTreeToIdealTree
+100 silly cloneCurrentTree Finishing
+101 silly loadShrinkwrap Starting
+102 silly install loadShrinkwrap
+103 silly loadShrinkwrap Finishing
+104 silly loadAllDepsIntoIdealTree Starting
+105 silly install loadAllDepsIntoIdealTree
+106 silly resolveWithNewModule sass-loader@9.0.2 checking installable status
+107 silly cache add args [ 'sass-loader@^9.0.2', null ]
+108 verbose cache add spec sass-loader@^9.0.2
+109 silly resolveWithNewModule style-loader@1.2.1 checking installable status
+110 silly cache add args [ 'style-loader@^1.2.1', null ]
+111 verbose cache add spec style-loader@^1.2.1
+112 silly resolveWithNewModule postcss-loader@3.0.0 checking installable status
+113 silly cache add args [ 'postcss-loader@^3.0.0', null ]
+114 verbose cache add spec postcss-loader@^3.0.0
+115 silly resolveWithNewModule css-loader@3.6.0 checking installable status
+116 silly cache add args [ 'css-loader@^3.6.0', null ]
+117 verbose cache add spec css-loader@^3.6.0
+118 silly resolveWithNewModule node-sass@4.14.1 checking installable status
+119 silly cache add args [ 'node-sass@^4.14.1', null ]
+120 verbose cache add spec node-sass@^4.14.1
+121 silly resolveWithNewModule autoprefixer@9.8.4 checking installable status
+122 silly cache add args [ 'autoprefixer', null ]
+123 verbose cache add spec autoprefixer
+124 silly cache add parsed spec Result {
+124 silly cache add   raw: 'sass-loader@^9.0.2',
+124 silly cache add   scope: null,
+124 silly cache add   name: 'sass-loader',
+124 silly cache add   rawSpec: '^9.0.2',
+124 silly cache add   spec: '>=9.0.2 <10.0.0',
+124 silly cache add   type: 'range' }
+125 silly addNamed sass-loader@>=9.0.2 <10.0.0
+126 verbose addNamed ">=9.0.2 <10.0.0" is a valid semver range for sass-loader
+127 silly addNameRange { name: 'sass-loader', range: '>=9.0.2 <10.0.0', hasData: false }
+128 silly mapToRegistry name sass-loader
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+132 verbose addNameRange registry:https://registry.npmjs.org/sass-loader not in flight; fetching
+133 silly cache add parsed spec Result {
+133 silly cache add   raw: 'style-loader@^1.2.1',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'style-loader',
+133 silly cache add   rawSpec: '^1.2.1',
+133 silly cache add   spec: '>=1.2.1 <2.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed style-loader@>=1.2.1 <2.0.0
+135 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for style-loader
+136 silly addNameRange { name: 'style-loader', range: '>=1.2.1 <2.0.0', hasData: false }
+137 silly mapToRegistry name style-loader
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+141 verbose addNameRange registry:https://registry.npmjs.org/style-loader not in flight; fetching
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'postcss-loader@^3.0.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'postcss-loader',
+142 silly cache add   rawSpec: '^3.0.0',
+142 silly cache add   spec: '>=3.0.0 <4.0.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed postcss-loader@>=3.0.0 <4.0.0
+144 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for postcss-loader
+145 silly addNameRange { name: 'postcss-loader',
+145 silly addNameRange   range: '>=3.0.0 <4.0.0',
+145 silly addNameRange   hasData: false }
+146 silly mapToRegistry name postcss-loader
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry uri https://registry.npmjs.org/postcss-loader
+150 verbose addNameRange registry:https://registry.npmjs.org/postcss-loader not in flight; fetching
+151 silly cache add parsed spec Result {
+151 silly cache add   raw: 'css-loader@^3.6.0',
+151 silly cache add   scope: null,
+151 silly cache add   name: 'css-loader',
+151 silly cache add   rawSpec: '^3.6.0',
+151 silly cache add   spec: '>=3.6.0 <4.0.0',
+151 silly cache add   type: 'range' }
+152 silly addNamed css-loader@>=3.6.0 <4.0.0
+153 verbose addNamed ">=3.6.0 <4.0.0" is a valid semver range for css-loader
+154 silly addNameRange { name: 'css-loader', range: '>=3.6.0 <4.0.0', hasData: false }
+155 silly mapToRegistry name css-loader
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+159 verbose addNameRange registry:https://registry.npmjs.org/css-loader not in flight; fetching
+160 silly cache add parsed spec Result {
+160 silly cache add   raw: 'node-sass@^4.14.1',
+160 silly cache add   scope: null,
+160 silly cache add   name: 'node-sass',
+160 silly cache add   rawSpec: '^4.14.1',
+160 silly cache add   spec: '>=4.14.1 <5.0.0',
+160 silly cache add   type: 'range' }
+161 silly addNamed node-sass@>=4.14.1 <5.0.0
+162 verbose addNamed ">=4.14.1 <5.0.0" is a valid semver range for node-sass
+163 silly addNameRange { name: 'node-sass', range: '>=4.14.1 <5.0.0', hasData: false }
+164 silly mapToRegistry name node-sass
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+168 verbose addNameRange registry:https://registry.npmjs.org/node-sass not in flight; fetching
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'autoprefixer',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'autoprefixer',
+169 silly cache add   rawSpec: '',
+169 silly cache add   spec: 'latest',
+169 silly cache add   type: 'tag' }
+170 silly addNamed autoprefixer@latest
+171 verbose addNamed "latest" is being treated as a dist-tag for autoprefixer
+172 info addNameTag [ 'autoprefixer', 'latest' ]
+173 silly mapToRegistry name autoprefixer
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+177 verbose addNameTag registry:https://registry.npmjs.org/autoprefixer not in flight; fetching
+178 verbose get https://registry.npmjs.org/sass-loader not expired, no request
+179 silly addNameRange number 2 { name: 'sass-loader', range: '>=9.0.2 <10.0.0', hasData: true }
+180 silly addNameRange versions [ 'sass-loader',
+180 silly addNameRange   [ '0.0.1',
+180 silly addNameRange     '0.0.2',
+180 silly addNameRange     '0.1.0',
+180 silly addNameRange     '0.1.1',
+180 silly addNameRange     '0.2.0',
+180 silly addNameRange     '0.3.0',
+180 silly addNameRange     '0.3.1',
+180 silly addNameRange     '0.4.0-beta.1',
+180 silly addNameRange     '0.4.0',
+180 silly addNameRange     '0.4.1',
+180 silly addNameRange     '0.4.2',
+180 silly addNameRange     '0.5.0',
+180 silly addNameRange     '1.0.0',
+180 silly addNameRange     '1.0.1',
+180 silly addNameRange     '0.6.0',
+180 silly addNameRange     '1.0.2',
+180 silly addNameRange     '1.0.3',
+180 silly addNameRange     '1.0.4',
+180 silly addNameRange     '2.0.0',
+180 silly addNameRange     '2.0.1',
+180 silly addNameRange     '3.0.0',
+180 silly addNameRange     '3.1.0',
+180 silly addNameRange     '3.1.1',
+180 silly addNameRange     '3.1.2',
+180 silly addNameRange     '3.2.0',
+180 silly addNameRange     '3.2.1',
+180 silly addNameRange     '3.2.2',
+180 silly addNameRange     '4.0.0',
+180 silly addNameRange     '3.2.3',
+180 silly addNameRange     '4.0.1',
+180 silly addNameRange     '4.0.2',
+180 silly addNameRange     '4.1.0',
+180 silly addNameRange     '4.1.1',
+180 silly addNameRange     '5.0.0',
+180 silly addNameRange     '5.0.1',
+180 silly addNameRange     '6.0.0',
+180 silly addNameRange     '6.0.1',
+180 silly addNameRange     '6.0.2',
+180 silly addNameRange     '6.0.3',
+180 silly addNameRange     '6.0.4',
+180 silly addNameRange     '6.0.5',
+180 silly addNameRange     '6.0.6',
+180 silly addNameRange     '6.0.7',
+180 silly addNameRange     '7.0.0',
+180 silly addNameRange     '7.0.1',
+180 silly addNameRange     '7.0.2',
+180 silly addNameRange     '7.0.3',
+180 silly addNameRange     '7.1.0',
+180 silly addNameRange     '7.2.0',
+180 silly addNameRange     '7.3.0',
+180 silly addNameRange     '7.3.1',
+180 silly addNameRange     '8.0.0',
+180 silly addNameRange     '8.0.1',
+180 silly addNameRange     '8.0.2',
+180 silly addNameRange     '9.0.0',
+180 silly addNameRange     '9.0.1',
+180 silly addNameRange     '9.0.2' ] ]
+181 silly addNamed sass-loader@9.0.2
+182 verbose addNamed "9.0.2" is a plain semver version for sass-loader
+183 verbose get https://registry.npmjs.org/style-loader not expired, no request
+184 silly addNameRange number 2 { name: 'style-loader', range: '>=1.2.1 <2.0.0', hasData: true }
+185 silly addNameRange versions [ 'style-loader',
+185 silly addNameRange   [ '0.1.0',
+185 silly addNameRange     '0.1.1',
+185 silly addNameRange     '0.1.2',
+185 silly addNameRange     '0.1.3',
+185 silly addNameRange     '0.2.0',
+185 silly addNameRange     '0.2.1',
+185 silly addNameRange     '0.5.0',
+185 silly addNameRange     '0.5.1',
+185 silly addNameRange     '0.5.2',
+185 silly addNameRange     '0.6.0',
+185 silly addNameRange     '0.6.1',
+185 silly addNameRange     '0.6.2',
+185 silly addNameRange     '0.6.3',
+185 silly addNameRange     '0.6.4',
+185 silly addNameRange     '0.6.5',
+185 silly addNameRange     '0.7.0',
+185 silly addNameRange     '0.7.1',
+185 silly addNameRange     '0.8.0',
+185 silly addNameRange     '0.8.1',
+185 silly addNameRange     '0.8.2',
+185 silly addNameRange     '0.8.3',
+185 silly addNameRange     '0.9.0',
+185 silly addNameRange     '0.10.0',
+185 silly addNameRange     '0.10.1',
+185 silly addNameRange     '0.10.2',
+185 silly addNameRange     '0.11.0',
+185 silly addNameRange     '0.12.0',
+185 silly addNameRange     '0.12.1',
+185 silly addNameRange     '0.12.2',
+185 silly addNameRange     '0.12.3',
+185 silly addNameRange     '0.12.4',
+185 silly addNameRange     '0.13.0',
+185 silly addNameRange     '0.13.1',
+185 silly addNameRange     '0.13.2',
+185 silly addNameRange     '0.14.0',
+185 silly addNameRange     '0.14.1',
+185 silly addNameRange     '0.15.0',
+185 silly addNameRange     '0.16.0',
+185 silly addNameRange     '0.16.1',
+185 silly addNameRange     '0.17.0',
+185 silly addNameRange     '0.18.0',
+185 silly addNameRange     '0.18.1',
+185 silly addNameRange     '0.18.2',
+185 silly addNameRange     '0.19.0',
+185 silly addNameRange     '0.19.1',
+185 silly addNameRange     '0.20.0',
+185 silly addNameRange     '0.20.1',
+185 silly addNameRange     '0.20.2',
+185 silly addNameRange     '0.20.3',
+185 silly addNameRange     '0.21.0',
+185 silly addNameRange     '0.22.0',
+185 silly addNameRange     '0.22.1',
+185 silly addNameRange     '0.23.0',
+185 silly addNameRange     '0.23.1',
+185 silly addNameRange     '1.0.0',
+185 silly addNameRange     '1.0.1',
+185 silly addNameRange     '1.0.2',
+185 silly addNameRange     '1.1.0',
+185 silly addNameRange     '1.1.1',
+185 silly addNameRange     '1.1.2',
+185 silly addNameRange     '1.1.3',
+185 silly addNameRange     '1.1.4',
+185 silly addNameRange     '1.2.0',
+185 silly addNameRange     '1.2.1' ] ]
+186 silly addNamed style-loader@1.2.1
+187 verbose addNamed "1.2.1" is a plain semver version for style-loader
+188 verbose get https://registry.npmjs.org/css-loader not expired, no request
+189 silly addNameRange number 2 { name: 'css-loader', range: '>=3.6.0 <4.0.0', hasData: true }
+190 silly addNameRange versions [ 'css-loader',
+190 silly addNameRange   [ '0.1.0',
+190 silly addNameRange     '0.1.1',
+190 silly addNameRange     '0.1.2',
+190 silly addNameRange     '0.2.0',
+190 silly addNameRange     '0.2.1',
+190 silly addNameRange     '0.2.2',
+190 silly addNameRange     '0.2.3',
+190 silly addNameRange     '0.2.4',
+190 silly addNameRange     '0.5.0',
+190 silly addNameRange     '0.5.1',
+190 silly addNameRange     '0.5.2',
+190 silly addNameRange     '0.6.0',
+190 silly addNameRange     '0.6.1',
+190 silly addNameRange     '0.6.2',
+190 silly addNameRange     '0.6.3',
+190 silly addNameRange     '0.6.4',
+190 silly addNameRange     '0.6.5',
+190 silly addNameRange     '0.6.6',
+190 silly addNameRange     '0.6.7',
+190 silly addNameRange     '0.6.8',
+190 silly addNameRange     '0.6.9',
+190 silly addNameRange     '0.6.10',
+190 silly addNameRange     '0.6.11',
+190 silly addNameRange     '0.6.12',
+190 silly addNameRange     '0.7.0',
+190 silly addNameRange     '0.7.1',
+190 silly addNameRange     '0.8.0',
+190 silly addNameRange     '0.9.0',
+190 silly addNameRange     '0.9.1',
+190 silly addNameRange     '0.10.0',
+190 silly addNameRange     '0.10.1',
+190 silly addNameRange     '0.11.0',
+190 silly addNameRange     '0.11.1',
+190 silly addNameRange     '0.11.2',
+190 silly addNameRange     '0.12.0',
+190 silly addNameRange     '0.12.1',
+190 silly addNameRange     '0.13.0',
+190 silly addNameRange     '0.13.1',
+190 silly addNameRange     '0.14.0',
+190 silly addNameRange     '0.14.1',
+190 silly addNameRange     '0.14.2',
+190 silly addNameRange     '0.14.3',
+190 silly addNameRange     '0.14.4',
+190 silly addNameRange     '0.14.5',
+190 silly addNameRange     '0.15.0',
+190 silly addNameRange     '0.15.1',
+190 silly addNameRange     '0.15.2',
+190 silly addNameRange     '0.15.3',
+190 silly addNameRange     '0.15.4',
+190 silly addNameRange     '0.15.5',
+190 silly addNameRange     '0.15.6',
+190 silly addNameRange     '0.16.0',
+190 silly addNameRange     '0.17.0',
+190 silly addNameRange     '0.18.0',
+190 silly addNameRange     '0.19.0',
+190 silly addNameRange     '0.20.0',
+190 silly addNameRange     '0.20.1',
+190 silly addNameRange     '0.20.2',
+190 silly addNameRange     '0.21.0',
+190 silly addNameRange     '0.22.0',
+190 silly addNameRange     '0.23.0',
+190 silly addNameRange     '0.23.1',
+190 silly addNameRange     '0.24.0',
+190 silly addNameRange     '0.25.0',
+190 silly addNameRange     '0.26.0',
+190 silly addNameRange     '0.26.1',
+190 silly addNameRange     '0.26.2',
+190 silly addNameRange     '0.26.4',
+190 silly addNameRange     '0.27.0',
+190 silly addNameRange     '0.27.1',
+190 silly addNameRange     '0.27.2',
+190 silly addNameRange     '0.27.3',
+190 silly addNameRange     '0.28.0',
+190 silly addNameRange     '0.28.1',
+190 silly addNameRange     '0.28.2',
+190 silly addNameRange     '0.28.3',
+190 silly addNameRange     '0.28.4',
+190 silly addNameRange     '0.28.5',
+190 silly addNameRange     '0.28.6',
+190 silly addNameRange     '0.28.7',
+190 silly addNameRange     '0.28.8',
+190 silly addNameRange     '0.28.9',
+190 silly addNameRange     '0.28.10',
+190 silly addNameRange     '0.28.11',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '2.0.0',
+190 silly addNameRange     '2.0.1',
+190 silly addNameRange     '2.0.2',
+190 silly addNameRange     '2.1.0',
+190 silly addNameRange     '2.1.1',
+190 silly addNameRange     '3.0.0',
+190 silly addNameRange     '3.1.0',
+190 silly addNameRange     '3.2.0',
+190 silly addNameRange     '3.2.1',
+190 silly addNameRange     '3.3.0',
+190 silly addNameRange     '3.3.1',
+190 silly addNameRange     '3.3.2',
+190 silly addNameRange     '3.4.0',
+190 silly addNameRange     '3.4.1',
+190 silly addNameRange     ... 6 more items ] ]
+191 silly addNamed css-loader@3.6.0
+192 verbose addNamed "3.6.0" is a plain semver version for css-loader
+193 verbose get https://registry.npmjs.org/node-sass not expired, no request
+194 silly addNameRange number 2 { name: 'node-sass', range: '>=4.14.1 <5.0.0', hasData: true }
+195 silly addNameRange versions [ 'node-sass',
+195 silly addNameRange   [ '0.2.0',
+195 silly addNameRange     '0.2.1',
+195 silly addNameRange     '0.2.2',
+195 silly addNameRange     '0.2.3',
+195 silly addNameRange     '0.2.4',
+195 silly addNameRange     '0.2.5',
+195 silly addNameRange     '0.2.6',
+195 silly addNameRange     '0.3.0',
+195 silly addNameRange     '0.4.0',
+195 silly addNameRange     '0.4.1',
+195 silly addNameRange     '0.4.2',
+195 silly addNameRange     '0.4.3',
+195 silly addNameRange     '0.4.4',
+195 silly addNameRange     '0.5.0',
+195 silly addNameRange     '0.5.1',
+195 silly addNameRange     '0.5.2',
+195 silly addNameRange     '0.5.3',
+195 silly addNameRange     '0.5.4',
+195 silly addNameRange     '0.6.0',
+195 silly addNameRange     '0.6.1',
+195 silly addNameRange     '0.6.2',
+195 silly addNameRange     '0.6.3',
+195 silly addNameRange     '0.6.4',
+195 silly addNameRange     '0.6.5',
+195 silly addNameRange     '0.6.6',
+195 silly addNameRange     '0.6.7',
+195 silly addNameRange     '0.7.0-alpha',
+195 silly addNameRange     '0.7.0',
+195 silly addNameRange     '0.8.0',
+195 silly addNameRange     '0.8.1',
+195 silly addNameRange     '0.8.2',
+195 silly addNameRange     '0.8.3',
+195 silly addNameRange     '0.8.4',
+195 silly addNameRange     '0.8.5',
+195 silly addNameRange     '0.8.6',
+195 silly addNameRange     '0.9.0',
+195 silly addNameRange     '0.9.1',
+195 silly addNameRange     '0.9.2',
+195 silly addNameRange     '0.9.3',
+195 silly addNameRange     '0.9.4-rc1',
+195 silly addNameRange     '0.9.4',
+195 silly addNameRange     '0.9.5-rc1',
+195 silly addNameRange     '0.9.5',
+195 silly addNameRange     '0.9.6',
+195 silly addNameRange     '1.0.0',
+195 silly addNameRange     '1.0.1',
+195 silly addNameRange     '1.0.2-alpha',
+195 silly addNameRange     '1.0.2',
+195 silly addNameRange     '1.0.3',
+195 silly addNameRange     '1.1.0',
+195 silly addNameRange     '1.1.1',
+195 silly addNameRange     '1.1.2',
+195 silly addNameRange     '1.1.3',
+195 silly addNameRange     '1.1.4',
+195 silly addNameRange     '1.2.0',
+195 silly addNameRange     '1.2.1',
+195 silly addNameRange     '1.2.2',
+195 silly addNameRange     '1.2.3',
+195 silly addNameRange     '2.0.0-beta',
+195 silly addNameRange     '2.0.0',
+195 silly addNameRange     '2.0.1',
+195 silly addNameRange     '3.0.0-alpha.0',
+195 silly addNameRange     '3.0.0-beta.2',
+195 silly addNameRange     '3.0.0-beta.3',
+195 silly addNameRange     '3.0.0-beta.4',
+195 silly addNameRange     '2.1.0',
+195 silly addNameRange     '2.1.1',
+195 silly addNameRange     '3.0.0-beta.5',
+195 silly addNameRange     '3.0.0-beta.7',
+195 silly addNameRange     '3.0.0',
+195 silly addNameRange     '3.1.0',
+195 silly addNameRange     '3.1.1',
+195 silly addNameRange     '3.1.2',
+195 silly addNameRange     '3.2.0',
+195 silly addNameRange     '3.3.0',
+195 silly addNameRange     '3.3.1',
+195 silly addNameRange     '3.3.2',
+195 silly addNameRange     '3.3.3',
+195 silly addNameRange     '3.4.0-beta1',
+195 silly addNameRange     '3.4.0-beta.2',
+195 silly addNameRange     '3.4.0',
+195 silly addNameRange     '3.4.1',
+195 silly addNameRange     '3.4.2',
+195 silly addNameRange     '3.5.0-beta.1',
+195 silly addNameRange     '3.5.1',
+195 silly addNameRange     '3.5.2',
+195 silly addNameRange     '3.5.3',
+195 silly addNameRange     '3.6.0',
+195 silly addNameRange     '3.7.0',
+195 silly addNameRange     '3.8.0',
+195 silly addNameRange     '3.9.0',
+195 silly addNameRange     '3.9.1',
+195 silly addNameRange     '3.9.2',
+195 silly addNameRange     '3.9.3',
+195 silly addNameRange     '3.10.0',
+195 silly addNameRange     '3.10.0-1',
+195 silly addNameRange     '3.10.1',
+195 silly addNameRange     '3.11.0',
+195 silly addNameRange     '3.11.1',
+195 silly addNameRange     '3.11.2',
+195 silly addNameRange     ... 39 more items ] ]
+196 silly addNamed node-sass@4.14.1
+197 verbose addNamed "4.14.1" is a plain semver version for node-sass
+198 silly mapToRegistry name sass-loader
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+202 verbose addRemoteTarball https://registry.npmjs.org/sass-loader/-/sass-loader-9.0.2.tgz not in flight; adding
+203 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass-loader/-/sass-loader-9.0.2.tgz',
+203 verbose addRemoteTarball   '847c9b4c95328ddc8c7d35cf28c9d6e54e59a90b' ]
+204 silly mapToRegistry name style-loader
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npmjs.org/
+207 silly mapToRegistry uri https://registry.npmjs.org/style-loader
+208 verbose addRemoteTarball https://registry.npmjs.org/style-loader/-/style-loader-1.2.1.tgz not in flight; adding
+209 verbose addRemoteTarball [ 'https://registry.npmjs.org/style-loader/-/style-loader-1.2.1.tgz',
+209 verbose addRemoteTarball   'c5cbbfbf1170d076cfdd86e0109c5bba114baa1a' ]
+210 silly mapToRegistry name css-loader
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry uri https://registry.npmjs.org/css-loader
+214 verbose addRemoteTarball https://registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz not in flight; adding
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz',
+215 verbose addRemoteTarball   '2e4b2c7e6e2d27f8c8f28f61bffcd2e6c91ef645' ]
+216 verbose get https://registry.npmjs.org/postcss-loader not expired, no request
+217 silly addNameRange number 2 { name: 'postcss-loader',
+217 silly addNameRange   range: '>=3.0.0 <4.0.0',
+217 silly addNameRange   hasData: true }
+218 silly addNameRange versions [ 'postcss-loader',
+218 silly addNameRange   [ '0.1.0',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '0.4.1',
+218 silly addNameRange     '0.4.2',
+218 silly addNameRange     '0.4.3',
+218 silly addNameRange     '0.4.4',
+218 silly addNameRange     '0.5.0',
+218 silly addNameRange     '0.5.1',
+218 silly addNameRange     '0.6.0',
+218 silly addNameRange     '0.7.0',
+218 silly addNameRange     '0.8.0',
+218 silly addNameRange     '0.8.1',
+218 silly addNameRange     '0.8.2',
+218 silly addNameRange     '0.9.0',
+218 silly addNameRange     '0.9.1',
+218 silly addNameRange     '0.10.0',
+218 silly addNameRange     '0.10.1',
+218 silly addNameRange     '0.11.0',
+218 silly addNameRange     '0.11.1',
+218 silly addNameRange     '0.12.0',
+218 silly addNameRange     '0.13.0',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.1.0',
+218 silly addNameRange     '1.1.1',
+218 silly addNameRange     '1.2.0',
+218 silly addNameRange     '1.2.1',
+218 silly addNameRange     '1.2.2',
+218 silly addNameRange     '1.3.0',
+218 silly addNameRange     '1.3.1',
+218 silly addNameRange     '1.3.2',
+218 silly addNameRange     '1.3.3',
+218 silly addNameRange     '2.0.0',
+218 silly addNameRange     '2.0.1',
+218 silly addNameRange     '2.0.2',
+218 silly addNameRange     '2.0.3',
+218 silly addNameRange     '2.0.4',
+218 silly addNameRange     '2.0.5',
+218 silly addNameRange     '2.0.6',
+218 silly addNameRange     '2.0.7',
+218 silly addNameRange     '2.0.8',
+218 silly addNameRange     '2.0.9',
+218 silly addNameRange     '2.0.10',
+218 silly addNameRange     '2.1.0',
+218 silly addNameRange     '2.1.1',
+218 silly addNameRange     '2.1.2',
+218 silly addNameRange     '2.1.3',
+218 silly addNameRange     '2.1.4',
+218 silly addNameRange     '2.1.5',
+218 silly addNameRange     '2.1.6',
+218 silly addNameRange     '3.0.0' ] ]
+219 silly addNamed postcss-loader@3.0.0
+220 verbose addNamed "3.0.0" is a plain semver version for postcss-loader
+221 verbose get https://registry.npmjs.org/autoprefixer not expired, no request
+222 silly addNameTag next cb for autoprefixer with tag latest
+223 silly addNamed autoprefixer@9.8.4
+224 verbose addNamed "9.8.4" is a plain semver version for autoprefixer
+225 silly mapToRegistry name node-sass
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/node-sass
+229 verbose addRemoteTarball https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz not in flight; adding
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz',
+230 verbose addRemoteTarball   '99c87ec2efb7047ed638fb4c9db7f3a42e2217b5' ]
+231 silly mapToRegistry name postcss-loader
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry uri https://registry.npmjs.org/postcss-loader
+235 verbose addRemoteTarball https://registry.npmjs.org/postcss-loader/-/postcss-loader-3.0.0.tgz not in flight; adding
+236 verbose addRemoteTarball [ 'https://registry.npmjs.org/postcss-loader/-/postcss-loader-3.0.0.tgz',
+236 verbose addRemoteTarball   '6b97943e47c72d845fa9e03f273773d4e8dd6c2d' ]
+237 silly mapToRegistry name autoprefixer
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer
+241 verbose addRemoteTarball https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.4.tgz not in flight; adding
+242 verbose addRemoteTarball [ 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.4.tgz',
+242 verbose addRemoteTarball   '736f1012673a70fa3464671d78d41abd54512863' ]
+243 info retry fetch attempt 1 at 21:48:59
+244 info attempt registry request try #1 at 21:48:59
+245 http fetch GET https://registry.npmjs.org/postcss-loader/-/postcss-loader-3.0.0.tgz
+246 info retry fetch attempt 1 at 21:48:59
+247 info attempt registry request try #1 at 21:48:59
+248 http fetch GET https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.4.tgz
+249 info retry fetch attempt 1 at 21:48:59
+250 info attempt registry request try #1 at 21:48:59
+251 http fetch GET https://registry.npmjs.org/sass-loader/-/sass-loader-9.0.2.tgz
+252 info retry fetch attempt 1 at 21:48:59
+253 info attempt registry request try #1 at 21:48:59
+254 http fetch GET https://registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz
+255 info retry fetch attempt 1 at 21:48:59
+256 info attempt registry request try #1 at 21:48:59
+257 http fetch GET https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz
+258 info retry fetch attempt 1 at 21:48:59
+259 info attempt registry request try #1 at 21:48:59
+260 http fetch GET https://registry.npmjs.org/style-loader/-/style-loader-1.2.1.tgz
+261 http fetch 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.4.tgz
+262 http fetch 200 https://registry.npmjs.org/sass-loader/-/sass-loader-9.0.2.tgz
+263 http fetch 200 https://registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz
+264 silly fetchAndShaCheck shasum 847c9b4c95328ddc8c7d35cf28c9d6e54e59a90b
+265 http fetch 200 https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz
+266 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/sass-loader/-/sass-loader-9.0.2.tgz not in flight; adding
+267 verbose addTmpTarball already have metadata; skipping unpack for sass-loader@9.0.2
+268 silly fetchAndShaCheck shasum 2e4b2c7e6e2d27f8c8f28f61bffcd2e6c91ef645
+269 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/css-loader/-/css-loader-3.6.0.tgz not in flight; adding
+270 verbose addTmpTarball already have metadata; skipping unpack for css-loader@3.6.0
+271 silly cache afterAdd sass-loader@9.0.2
+272 verbose afterAdd /home/florian/.npm/sass-loader/9.0.2/package/package.json not in flight; writing
+273 verbose afterAdd /home/florian/.npm/sass-loader/9.0.2/package/package.json written
+274 silly cache afterAdd css-loader@3.6.0
+275 verbose afterAdd /home/florian/.npm/css-loader/3.6.0/package/package.json not in flight; writing
+276 verbose afterAdd /home/florian/.npm/css-loader/3.6.0/package/package.json written
+277 http fetch 200 https://registry.npmjs.org/postcss-loader/-/postcss-loader-3.0.0.tgz
+278 http fetch 200 https://registry.npmjs.org/style-loader/-/style-loader-1.2.1.tgz
+279 silly fetchAndShaCheck shasum 6b97943e47c72d845fa9e03f273773d4e8dd6c2d
+280 silly fetchAndShaCheck shasum c5cbbfbf1170d076cfdd86e0109c5bba114baa1a
+281 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/postcss-loader/-/postcss-loader-3.0.0.tgz not in flight; adding
+282 verbose addTmpTarball already have metadata; skipping unpack for postcss-loader@3.0.0
+283 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/style-loader/-/style-loader-1.2.1.tgz not in flight; adding
+284 verbose addTmpTarball already have metadata; skipping unpack for style-loader@1.2.1
+285 silly fetchAndShaCheck shasum 736f1012673a70fa3464671d78d41abd54512863
+286 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.4.tgz not in flight; adding
+287 verbose addTmpTarball already have metadata; skipping unpack for autoprefixer@9.8.4
+288 silly cache afterAdd postcss-loader@3.0.0
+289 verbose afterAdd /home/florian/.npm/postcss-loader/3.0.0/package/package.json not in flight; writing
+290 silly cache afterAdd style-loader@1.2.1
+291 verbose afterAdd /home/florian/.npm/style-loader/1.2.1/package/package.json not in flight; writing
+292 verbose afterAdd /home/florian/.npm/postcss-loader/3.0.0/package/package.json written
+293 verbose afterAdd /home/florian/.npm/style-loader/1.2.1/package/package.json written
+294 silly cache afterAdd autoprefixer@9.8.4
+295 verbose afterAdd /home/florian/.npm/autoprefixer/9.8.4/package/package.json not in flight; writing
+296 verbose afterAdd /home/florian/.npm/autoprefixer/9.8.4/package/package.json written
+297 silly fetchAndShaCheck shasum 99c87ec2efb7047ed638fb4c9db7f3a42e2217b5
+298 verbose addTmpTarball /tmp/npm-5488-ab353cf2/registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz not in flight; adding
+299 verbose addTmpTarball already have metadata; skipping unpack for node-sass@4.14.1
+300 silly cache afterAdd node-sass@4.14.1
+301 verbose afterAdd /home/florian/.npm/node-sass/4.14.1/package/package.json not in flight; writing
+302 verbose afterAdd /home/florian/.npm/node-sass/4.14.1/package/package.json written
+303 silly fetchNamedPackageData browserslist
+304 silly mapToRegistry name browserslist
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry uri https://registry.npmjs.org/browserslist
+308 silly fetchNamedPackageData caniuse-lite
+309 silly mapToRegistry name caniuse-lite
+310 silly mapToRegistry using default registry
+311 silly mapToRegistry registry https://registry.npmjs.org/
+312 silly mapToRegistry uri https://registry.npmjs.org/caniuse-lite
+313 silly fetchNamedPackageData colorette
+314 silly mapToRegistry name colorette
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry uri https://registry.npmjs.org/colorette
+318 silly fetchNamedPackageData normalize-range
+319 silly mapToRegistry name normalize-range
+320 silly mapToRegistry using default registry
+321 silly mapToRegistry registry https://registry.npmjs.org/
+322 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+323 silly fetchNamedPackageData num2fraction
+324 silly mapToRegistry name num2fraction
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/num2fraction
+328 silly fetchNamedPackageData postcss
+329 silly mapToRegistry name postcss
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry uri https://registry.npmjs.org/postcss
+333 silly fetchNamedPackageData postcss-value-parser
+334 silly mapToRegistry name postcss-value-parser
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry uri https://registry.npmjs.org/postcss-value-parser
+338 verbose request uri https://registry.npmjs.org/browserslist
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 21:49:00
+341 http request GET https://registry.npmjs.org/browserslist
+342 verbose request uri https://registry.npmjs.org/caniuse-lite
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 21:49:00
+345 http request GET https://registry.npmjs.org/caniuse-lite
+346 verbose request uri https://registry.npmjs.org/colorette
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 21:49:00
+349 http request GET https://registry.npmjs.org/colorette
+350 verbose request uri https://registry.npmjs.org/normalize-range
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 21:49:00
+353 http request GET https://registry.npmjs.org/normalize-range
+354 verbose request uri https://registry.npmjs.org/num2fraction
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 21:49:00
+357 http request GET https://registry.npmjs.org/num2fraction
+358 verbose request uri https://registry.npmjs.org/postcss
+359 verbose request no auth needed
+360 info attempt registry request try #1 at 21:49:00
+361 http request GET https://registry.npmjs.org/postcss
+362 verbose request uri https://registry.npmjs.org/postcss-value-parser
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 21:49:00
+365 http request GET https://registry.npmjs.org/postcss-value-parser
+366 http 200 https://registry.npmjs.org/normalize-range
+367 verbose headers { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+367 verbose headers   'content-type': 'application/json; charset=UTF-8',
+367 verbose headers   'transfer-encoding': 'chunked',
+367 verbose headers   connection: 'keep-alive',
+367 verbose headers   'set-cookie':
+367 verbose headers    [ '__cfduid=dae917dae18f89ee0533756648b78d4411594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+367 verbose headers   'cf-ray': '5afc53751d2abd77-CDG',
+367 verbose headers   age: '3892',
+367 verbose headers   'cache-control': 'public, max-age=300',
+367 verbose headers   etag: 'W/"c3a15e353dc95f29f01c259f8cfdfa65"',
+367 verbose headers   'last-modified': 'Sun, 27 May 2018 10:33:46 GMT',
+367 verbose headers   vary: 'accept-encoding, accept',
+367 verbose headers   'cf-cache-status': 'HIT',
+367 verbose headers   'cf-request-id': '03d1927d310000bd775933d200000001',
+367 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+367 verbose headers   server: 'cloudflare',
+367 verbose headers   'content-encoding': 'gzip' }
+368 silly get cb [ 200,
+368 silly get   { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+368 silly get     'content-type': 'application/json; charset=UTF-8',
+368 silly get     'transfer-encoding': 'chunked',
+368 silly get     connection: 'keep-alive',
+368 silly get     'set-cookie':
+368 silly get      [ '__cfduid=dae917dae18f89ee0533756648b78d4411594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+368 silly get     'cf-ray': '5afc53751d2abd77-CDG',
+368 silly get     age: '3892',
+368 silly get     'cache-control': 'public, max-age=300',
+368 silly get     etag: 'W/"c3a15e353dc95f29f01c259f8cfdfa65"',
+368 silly get     'last-modified': 'Sun, 27 May 2018 10:33:46 GMT',
+368 silly get     vary: 'accept-encoding, accept',
+368 silly get     'cf-cache-status': 'HIT',
+368 silly get     'cf-request-id': '03d1927d310000bd775933d200000001',
+368 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+368 silly get     server: 'cloudflare',
+368 silly get     'content-encoding': 'gzip' } ]
+369 verbose get saving normalize-range to /home/florian/.npm/registry.npmjs.org/normalize-range/.cache.json
+370 http 200 https://registry.npmjs.org/colorette
+371 verbose headers { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+371 verbose headers   'content-type': 'application/json',
+371 verbose headers   'transfer-encoding': 'chunked',
+371 verbose headers   connection: 'keep-alive',
+371 verbose headers   'set-cookie':
+371 verbose headers    [ '__cfduid=d4f7c3ab1aef0af6c48bb159dd2e341b91594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+371 verbose headers   'cf-ray': '5afc53751930cd77-CDG',
+371 verbose headers   age: '4513',
+371 verbose headers   'cache-control': 'public, max-age=300',
+371 verbose headers   etag: 'W/"665ad403f25cfae166255a97f1ef22d0"',
+371 verbose headers   'last-modified': 'Sun, 05 Jul 2020 13:33:21 GMT',
+371 verbose headers   vary: 'accept-encoding, accept',
+371 verbose headers   'cf-cache-status': 'HIT',
+371 verbose headers   'cf-request-id': '03d1927d310000cd77882fd200000001',
+371 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+371 verbose headers   server: 'cloudflare',
+371 verbose headers   'content-encoding': 'gzip' }
+372 silly get cb [ 200,
+372 silly get   { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+372 silly get     'content-type': 'application/json',
+372 silly get     'transfer-encoding': 'chunked',
+372 silly get     connection: 'keep-alive',
+372 silly get     'set-cookie':
+372 silly get      [ '__cfduid=d4f7c3ab1aef0af6c48bb159dd2e341b91594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+372 silly get     'cf-ray': '5afc53751930cd77-CDG',
+372 silly get     age: '4513',
+372 silly get     'cache-control': 'public, max-age=300',
+372 silly get     etag: 'W/"665ad403f25cfae166255a97f1ef22d0"',
+372 silly get     'last-modified': 'Sun, 05 Jul 2020 13:33:21 GMT',
+372 silly get     vary: 'accept-encoding, accept',
+372 silly get     'cf-cache-status': 'HIT',
+372 silly get     'cf-request-id': '03d1927d310000cd77882fd200000001',
+372 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+372 silly get     server: 'cloudflare',
+372 silly get     'content-encoding': 'gzip' } ]
+373 verbose get saving colorette to /home/florian/.npm/registry.npmjs.org/colorette/.cache.json
+374 http 200 https://registry.npmjs.org/num2fraction
+375 verbose headers { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+375 verbose headers   'content-type': 'application/json; charset=UTF-8',
+375 verbose headers   'transfer-encoding': 'chunked',
+375 verbose headers   connection: 'keep-alive',
+375 verbose headers   'set-cookie':
+375 verbose headers    [ '__cfduid=d136e87413e3ffcbf6bf9d77233ef15f71594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+375 verbose headers   'cf-ray': '5afc53751ba50476-CDG',
+375 verbose headers   age: '3891',
+375 verbose headers   'cache-control': 'public, max-age=300',
+375 verbose headers   etag: 'W/"adf3de1622f8077a9b177d97a5c5a292"',
+375 verbose headers   'last-modified': 'Sun, 27 May 2018 10:51:20 GMT',
+375 verbose headers   vary: 'accept-encoding, accept',
+375 verbose headers   'cf-cache-status': 'HIT',
+375 verbose headers   'cf-request-id': '03d1927d320000047619238200000001',
+375 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+375 verbose headers   server: 'cloudflare',
+375 verbose headers   'content-encoding': 'gzip' }
+376 silly get cb [ 200,
+376 silly get   { date: 'Wed, 08 Jul 2020 19:49:00 GMT',
+376 silly get     'content-type': 'application/json; charset=UTF-8',
+376 silly get     'transfer-encoding': 'chunked',
+376 silly get     connection: 'keep-alive',
+376 silly get     'set-cookie':
+376 silly get      [ '__cfduid=d136e87413e3ffcbf6bf9d77233ef15f71594237740; expires=Fri, 07-Aug-20 19:49:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+376 silly get     'cf-ray': '5afc53751ba50476-CDG',
+376 silly get     age: '3891',
+376 silly get     'cache-control': 'public, max-age=300',
+376 silly get     etag: 'W/"adf3de1622f8077a9b177d97a5c5a292"',
+376 silly get     'last-modified': 'Sun, 27 May 2018 10:51:20 GMT',
+376 silly get     vary: 'accept-encoding, accept',
+376 silly get     'cf-cache-status': 'HIT',
+376 silly get     'cf-request-id': '03d1927d320000047619238200000001',
+376 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+376 silly get     server: 'cloudflare',
+376 silly get     'content-encoding': 'gzip' } ]
+377 verbose get saving num2fraction to /home/florian/.npm/registry.npmjs.org/num2fraction/.cache.json
+378 silly resolveWithNewModule normalize-range@0.1.2 checking installable status
+379 silly cache add args [ 'normalize-range@^0.1.2', null ]
+380 verbose cache add spec normalize-range@^0.1.2
+381 silly cache add parsed spec Result {
+381 silly cache add   raw: 'normalize-range@^0.1.2',
+381 silly cache add   scope: null,
+381 silly cache add   name: 'normalize-range',
+381 silly cache add   rawSpec: '^0.1.2',
+381 silly cache add   spec: '>=0.1.2 <0.2.0',
+381 silly cache add   type: 'range' }
+382 silly addNamed normalize-range@>=0.1.2 <0.2.0
+383 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for normalize-range
+384 silly addNameRange { name: 'normalize-range',
+384 silly addNameRange   range: '>=0.1.2 <0.2.0',
+384 silly addNameRange   hasData: false }
+385 silly mapToRegistry name normalize-range
+386 silly mapToRegistry using default registry
+387 silly mapToRegistry registry https://registry.npmjs.org/
+388 silly mapToRegistry uri https://registry.npmjs.org/normalize-range
+389 verbose addNameRange registry:https://registry.npmjs.org/normalize-range not in flight; fetching
+390 verbose stack Error: Missing required argument #1
+390 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+390 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+390 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+390 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+390 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+390 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+390 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+390 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+390 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+390 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+391 verbose cwd /home/florian/www/hippocampe.florian.tot/site
+392 error Linux 5.3.0-53-generic
+393 error argv "/usr/bin/node" "/usr/bin/npm" "i" "--save-dev" "sass-loader" "node-sass" "css-loader" "style-loader" "autoprefixer" "postcss-loader"
+394 error node v8.10.0
+395 error npm  v3.5.2
+396 error code EMISSINGARG
+397 error typeerror Error: Missing required argument #1
+397 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+397 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+397 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+397 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+397 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+397 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+397 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+397 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+397 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+397 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+398 error typeerror This is an error with npm itself. Please report this error at:
+398 error typeerror     <http://github.com/npm/npm/issues>
+399 verbose exit [ 1, true ]

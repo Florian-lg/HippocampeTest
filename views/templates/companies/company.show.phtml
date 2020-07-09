@@ -1,0 +1,16 @@
+<?php include 'views/templates/_partials/header.html'; ?>
+
+<body>
+    <?php include 'views/templates/_partials/sidebar.phtml'; ?>
+    <h1 id="title" class="text-primary">Companies</h1>
+    <div class="container">
+        <div id="company" class="mt-4">
+            <?php echo $company->getName(); ?>
+            <?php echo $company->getDepartment(); ?>
+        </div>
+    </div>
+
+    <?php include 'views/templates/_partials/scripts.html'; ?>
+</body>
+
+<?php include 'views/templates/_partials/footer.html'; ?>

@@ -42,8 +42,7 @@ class Employee
     /**
      * @var int $company
      * @ORM\Column(type="integer")
-     * @ManyToOne(targetEntity="Company")
-     * @JoinColumn(name="company_id", referencedColumnName="id")
+     * @ORM\ManyToOne(targetEntity=Company::class)
      */
     private $company;
 
@@ -121,6 +120,11 @@ class Employee
     public function getCompany(): int
     {
         return $this->company;
+    }
+
+    public function getName(): string
+    {
+        return $this->firstName . ' ' . $this->lastName;
     }
 
 }

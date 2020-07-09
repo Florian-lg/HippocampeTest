@@ -20,8 +20,8 @@ $dbParams = [
     'driver'   => 'pdo_mysql',
     'host'     => 'localhost',
     'charset'  => 'utf8',
-    'user'     => 'fake',
-    'password' => 'fake',
+    'user'     => 'florian',
+    'password' => 'florian',
     'dbname'   => 'hippocampe',
 ];
 
@@ -32,6 +32,7 @@ $config = Setup::createAnnotationMetadataConfiguration(
     $cache,
     $useSimpleAnnotationReader
 );
+
 $entityManager = EntityManager::create($dbParams, $config);
 
 return $entityManager;
